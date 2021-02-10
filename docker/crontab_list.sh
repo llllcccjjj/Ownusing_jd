@@ -12,3 +12,7 @@
 
 #国际盲盒
 0 0,20-23 10-12 2 * node /scripts/jd_gjmh.js >> /scripts/logs/jd_gjmh.log 2>&1
+
+#红包雨
+0,50 0,9,11,13,15,17,19,20,21,23 8-18 2 * node /scripts/jd_red_rain.js >> /scripts/logs/jd_red_rain.log 2>&1
+
