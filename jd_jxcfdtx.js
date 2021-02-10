@@ -3,7 +3,7 @@
   Name:财富岛提现
   Address: 京喜App ====>>>> 全民赚大钱
   Author：MoPoQAQ
-  Update: 2021/1/26 17:30
+  Update: 2021/2/2 13:00
 
   Thanks: 
     💢疯疯💢
@@ -71,7 +71,7 @@ function cashOut() {
 
 function taskUrl(function_path, body) {
   return {
-    url: `${JD_API_HOST}jxcfd/${function_path}?strZone=jxcfd&bizCode=jxcfd&source=jxcfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=&${body}&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
+    url: `${JD_API_HOST}jxcfd/${function_path}?strZone=jxcfd&bizCode=jxcfd&source=jxcfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=&${body}&_stk=_cfd_t%2CbizCode%2CddwMinPaperMoney%2CddwMoney%2CdwEnv%2CdwIsCreateToken%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrZone&_ste=1&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
     headers: {
       Cookie: $.currentCookie,
       Accept: "*/*",
@@ -112,7 +112,7 @@ function getTokens() {
       $.tokenArr.push(jdTokenNode[item] ? JSON.parse(jdTokenNode[item]) : '{}');
     })
   } else {
-    $.tokenArr = [JSON.parse($.getdata('jxnc_token1') || '{}'), JSON.parse($.getdata('jxnc_token2') || '{}')];
+    $.tokenArr = JSON.parse($.getdata('jx_tokens') || '[]');
   }
   if (!$.tokenArr[0]) {
     $.msg(
