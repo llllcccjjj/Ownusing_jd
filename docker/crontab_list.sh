@@ -9,3 +9,6 @@
 
 #年货红包
 0 0,20-23 10-12 2 * node /scripts/jd_cxhb.js >> /scripts/logs/jd_cxhb.log 2>&1
+
+#国际盲盒
+0 0,20-23 10-12 2 * node /scripts/jd_gjmh.js >> /scripts/logs/jd_gjmh.log 2>&1
