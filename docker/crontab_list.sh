@@ -10,5 +10,8 @@
 #沃尔玛
 3 10 17-28 2 * node /scripts/jd_walmart.js >> /scripts/logs/jd_walmart.log 2>&1
 
+#美丽研究院
+32 6 * * * node /scripts/jd_mlyjy.js >> /scripts/logs/jd_mlyjy.log 2>&1
+
 
 
