@@ -13,8 +13,7 @@
 #美丽研究院
 21 9,13,20 * * * node /scripts/jd_mlyjy.js >> /scripts/logs/jd_mlyjy.log 2>&1
 
-#华硕爱奇艺
-0 0 22-28 2 * node /scripts/jd_asus_iqiyi.js >> /scripts/logs/jd_asus_iqiyi.log 2>&1
+
 
 
 
