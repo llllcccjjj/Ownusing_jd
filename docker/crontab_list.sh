@@ -13,6 +13,9 @@
 #母婴
 10 12 22-27 2 * node /scripts/jd_jump-jump.js >> /scripts/logs/jd_jump-jump.log 2>&1
 
+#短暂红包雨
+30,31 20-23/1 2,5 3 * node /scripts/jd_live_redrain.js >> /scripts/logs/jd_live_redrain.log 2>&1
+
 
 
 
