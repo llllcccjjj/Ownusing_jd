@@ -14,7 +14,7 @@
 30,31 20-23/1 5,9  3 * node /scripts/jd_once_live_redrain.js >> /scripts/logs/jd_once_live_redrain.log 2>&1
 
 #短暂红包雨
-30,31 20-23/1 2,5 3 * node /scripts/jd_live_redrain.js >> /scripts/logs/jd_live_redrain.log 2>&1
+1 8-23 * * * node /scripts/jd_live_hour_redrain.js >> /scripts/logs/jd_live_hour_redrain.log 2>&1
 
 
 
