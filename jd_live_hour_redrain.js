@@ -1,6 +1,14 @@
 /*
-只能用一天。需每天寻找直播抓包
-1 8-23 * * * lxk0301_live_redrain.js
+更新地址：https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js
+============Quantumultx===============
+[task_local]
+#红包雨
+1 8-23 7 4 *  https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js, tag=红包雨,  enabled=true
+================Loon==============
+[Script]
+cron "1 8-23 7 4 * " script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js,tag=红包雨
+===============Surge=================
+红包雨 = type=cron,cronexp="1 8-23 7 4 * ",wake-system=1,timeout=3600,script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js
 */
 const $ = new Env('整点京豆雨');
 let allMessage = '';
@@ -11,22 +19,22 @@ let bodyList = {
   }
 }
 let ids = {
-  '8': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '9': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '10': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '11': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '12': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '13': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '14': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '15': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '16': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '17': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '18': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '19': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '20': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '21': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '22': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '23': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK'
+  '8': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '9': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '10': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '11': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '12': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '13': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '14': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '15': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '16': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '17': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '18': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '19': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '20': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '21': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '22': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN',
+  '23': 'RRA2CnovS9KVTTwBD9NV7o4kc3P8PTN'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
