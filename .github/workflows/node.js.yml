@@ -1,12 +1,5 @@
 name: A TO A:GH_PAGES
 on: [push]
-    schedule:
-        - cron: '0 */1 * * *'
-  workflow_dispatch:
-  watch:
-    types: started
-  repository_dispatch:
-    types: build-and-deploy
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
