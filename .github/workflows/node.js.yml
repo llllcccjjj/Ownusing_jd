@@ -27,7 +27,7 @@ jobs:
         # 来源仓库
         source-repo: "https://github.com/llllcccjjj/Ownusing_jd.git"
         # 目标仓库
-        destination-repo: "https://gitee.com/lllyyyuuu/Ownusing_jd.git"
+        destination-repo: "git@gitee.com:lllyyyuuu/Ownusing_jd.git"
   reload-pages:
     needs: sync
     runs-on: ubuntu-latest
