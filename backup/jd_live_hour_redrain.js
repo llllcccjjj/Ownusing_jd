@@ -3,12 +3,12 @@
 ============Quantumultx===============
 [task_local]
 #红包雨
-1 8-23 8 4 *  https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js, tag=红包雨,  enabled=true
+1 8-23 9 4 *  https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js, tag=红包雨,  enabled=true
 ================Loon==============
 [Script]
-cron "1 8-23 8 4 * " script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js,tag=红包雨
+cron "1 8-23 9 4 * " script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js,tag=红包雨
 ===============Surge=================
-红包雨 = type=cron,cronexp="1 8-23 8 4 * ",wake-system=1,timeout=3600,script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js
+红包雨 = type=cron,cronexp="1 8-23 9 4 * ",wake-system=1,timeout=3600,script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js
 */
 const $ = new Env('整点京豆雨');
 let allMessage = '';
@@ -19,6 +19,7 @@ let bodyList = {
   }
 }
 let ids = {
+  '7': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
   '8': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
   '9': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
   '10': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
