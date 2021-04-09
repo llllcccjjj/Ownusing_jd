@@ -3,14 +3,6 @@
 活动入口：首页搜索-‘百变大咖秀’-底部最右侧按钮
 请手动进入一次活动页面已确保能够自动抽奖
 活动地址：https://lzdz-isv.isvjcloud.com/dingzhi/change/able/activity/3508994?activityId=dz2102100001340206
-
-新手写脚本，难免有bug，能用且用。
-多谢 whyour 大佬 指导
-
-脚本内置了一个给作者任务助力的网络请求，默认开启，如介意请自行关闭。
-助力活动链接： https://h5.m.jd.com/babelDiy/Zeus/4ZK4ZpvoSreRB92RRo8bpJAQNoTq/index.html
-参数 helpAuthor = false
-
 更新地址：https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
 ============Quantumultx===============
 [task_local]
