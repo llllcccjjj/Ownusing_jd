@@ -5,7 +5,6 @@
 活动地址：https://lzdz-isv.isvjcloud.com/dingzhi/change/able/activity/3508994?activityId=dz2102100001340206
 更新地址：https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js
 
-
 ============Quantumultx===============
 [task_local]
 #百变大咖秀
