@@ -35,7 +35,7 @@ let ids = {
   '20': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
   '21': 'RRA4RhWMc159kA62qLbaEa88evE7owb',
   '22': 'RRA3gsDuBBP5kYqknjTZ2h3VLkEpiT3',
-  '23': 'RRA4RhWMc159kA62qLbaEa88evE7owb'
+  '23': 'RRA2qAfXJe5iMPfa7f5VCgviBaxjG3D'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
