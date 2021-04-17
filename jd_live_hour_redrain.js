@@ -3,12 +3,12 @@
 ============Quantumultx===============
 [task_local]
 #红包雨
-1 8-23 13 4 *  https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js, tag=红包雨,  enabled=true
+1 8-23 17 4 *  https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js, tag=红包雨,  enabled=true
 ================Loon==============
 [Script]
-cron "1 8-23 13 4 * " script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js,tag=红包雨
+cron "1 8-23 17 4 * " script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js,tag=红包雨
 ===============Surge=================
-红包雨 = type=cron,cronexp="1 8-23 13 4 * ",wake-system=1,timeout=3600,script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js
+红包雨 = type=cron,cronexp="1 8-23 17 4 * ",wake-system=1,timeout=3600,script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_live_hour_redrain.js
 */
 const $ = new Env('整点京豆雨');
 let allMessage = '';
