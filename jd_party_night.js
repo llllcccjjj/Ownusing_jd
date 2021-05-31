@@ -2,7 +2,11 @@
 沸腾之夜
 开启预约活动得0.18元红包，得到五个助力后，得1.58元红包
 内部账号自己相互助力，一个账号3次助力机会。
- */
+[Script]
+cron "1 1 * * * " script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_party_night.js,tag=红包雨
+===============Surge=================
+沸腾之夜 = type=cron,cronexp="1 1 * * * ",wake-system=1,timeout=3600,script-path=https://raw.gitee.com/lllyyyuuu/Ownusing_jd/edit/main/jd_party_night.js
+*/
 const $ = new Env('沸腾之夜');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
