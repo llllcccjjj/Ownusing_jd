@@ -1,8 +1,4 @@
-/**
- * Author:Panda
- * Date:2021-06-03
- * Version:1.0
- * Url:https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js
+/*
  ==============Quantumult X==============
 [task_local]
 #超级直播间盲盒抽京豆
