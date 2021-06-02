@@ -13,7 +13,6 @@ cron "15 13 1-18 6 *" script-path=https://raw.githubusercontent.com/zooPanda/zoo
 
 ===============小火箭==========
 超级直播间盲盒抽京豆 = type=cron,script-path=https://raw.githubusercontent.com/zooPanda/zoo/dev/zooLongzhou.js, cronexpr="15 13 1-18 6 *", timeout=3600, enable=true
-*/
  * 浓情618 与“粽”不同
  * 活动地址：https://lzdz-isv.isvjcloud.com/dingzhi/union/longzhou/activity?activityId=901053001
  * 活动时间：2021-06-01至2021-06-18
@@ -23,7 +22,7 @@ cron "15 13 1-18 6 *" script-path=https://raw.githubusercontent.com/zooPanda/zoo
  * 环境变量：
  *     - export ZOO_OPENCAD="true" //默认不开通会员
  *     - export ZOO_ADD2CART="true" //默认不加购商品
- */
+*/
  const $ = new Env("与'粽'不同");
  const ZOO_OPENCAD = $.isNode() ? process.env.ZOO_OPENCAD || 'false' : 'false'
  const ZOO_ADD2CART = $.isNode() ? process.env.ZOO_ADD2CART || 'false' : 'false'
