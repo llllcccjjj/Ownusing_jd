@@ -1,5 +1,4 @@
 /**
-*
   Name:财富岛提现
   Address: 京喜App ====>>>> 全民赚大钱
   Author：MoPoQAQ
@@ -10,8 +9,19 @@
     银河大佬：https://github.com/zbt494
   获取Token方式：
   打开【❗️京喜农场❗️】，手动任意完成<工厂任务>、<签到任务>、<金牌厂长任务>一项，提示获取cookie成功即可，然后退出跑任务脚本
-
-*
+  更新地址：https://share.r2ray.com/dust/i-chenzhe/z_fanslove.js
+============Quantumultx===============
+[task_local]
+0 0 * * * https://share.r2ray.com/dust/i-chenzhe/z_fanslove.js, tag=粉丝互动,  enabled=true
+[rewrite_local]
+^https://lzkjdz\-isv\.isvjcloud\.com\/wxFansInterActionActivity\/activityContent url script-response-body https://share.r2ray.com/dust/i-chenzhe/jd_getFanslove.js
+================Loon==============
+[Script]
+cron "0 0 * * *" script-path=https://share.r2ray.com/dust/i-chenzhe/z_fanslove.js,tag=粉丝互动
+===============Surge=================
+粉丝互动 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://share.r2ray.com/dust/i-chenzhe/z_fanslove.js
+============小火箭=========
+粉丝互动 = type=cron,script-path=https://share.r2ray.com/dust/i-chenzhe/z_fanslove.js, cronexpr="3 10 * * *", timeout=3600, enable=true
 **/
 
 const $ = new Env("京喜财富岛提现");
