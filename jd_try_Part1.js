@@ -21,7 +21,7 @@ export JD_TRY_UNIFIED="false" 默认采用不同试用组
 cron "4 1-22/8 * * *" jd_try.js, tag:京东试用
 
  */
-const $ = new Env('京东试用')
+const $ = new Env('京东试用1')
 const URL = 'https://api.m.jd.com/client.action'
 let trialActivityIdList = []
 let trialActivityTitleList = []
