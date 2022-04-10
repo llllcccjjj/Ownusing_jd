@@ -185,7 +185,6 @@ let args_xh = {
     // 如果你要运行京东试用这个脚本，麻烦你把环境变量 JD_TRY 设置为 true
     if (process.env.JD_TRY && process.env.JD_TRY === 'true') {
         await requireConfig()
-        console.log(`${cookiesArr[0]}`)
         let lnTotalAcc=Math.ceil(cookiesArr.length/4);
         console.log(`共${cookiesArr.length}个京东账号,可以分${lnTotalAcc}组\n`)
         console.log(`本脚本运行第2组\n`)
